@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Edu TAS Beginner', cursive !important;
+}
+
+#resume-container {
+    width: 40%;
+    height: auto;
+    max-width: 800px;
+    padding: 30px;
+    margin-top: 3.5rem !important;
+    margin-bottom: 3.5rem;
+    box-shadow: 0 0 30px goldenrod;
+    margin: auto;
+}
+
+#resume-content {
+    font-family: 'Edu TAS Beginner', cursive !important;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0059b3;
+}
